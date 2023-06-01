@@ -24,9 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '***REMOVED***'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# 本地 TRUE ALLOWED_HOSTS 要空的
 DEBUG = False
 
-ALLOWED_HOSTS = ['13.208.146.112',
+ALLOWED_HOSTS = ['***REMOVED***',
                  'localhost',
                  '127.0.0.1']
 
