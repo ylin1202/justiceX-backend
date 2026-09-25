@@ -2,7 +2,10 @@
 
 JusticeX helps citizens who may be selected as **lay judges** in Taiwan understand real court cases. Taiwan introduced its Citizen Judge system in 2023, and most people chosen to sit on a trial have no legal background. JusticeX turns published criminal judgments into structured, searchable cases, recommends similar past cases, and lets users compare their own reading of a case with the actual verdict.
 
-This repository contains the **Django REST API backend**. The mobile client lives in [JusticeX-frontend](https://github.com/ylin1202/JusticeX-frontend).
+This repository contains the **Django REST API backend**. The rest of the system lives in:
+
+* [verdict_crawler](https://github.com/ylin1202/verdict_crawler): Scrapy + GPT pipeline that collects judgments and extracts crime features
+* [JusticeX-frontend](https://github.com/ylin1202/JusticeX-frontend): React Native mobile app
 
 > Capstone project, Bachelor of Information Management, National Taipei University of Business (2023)
 
